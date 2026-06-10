@@ -74,6 +74,6 @@ The bundled skills are maintained in [SpriteCook/skills](https://github.com/Spri
 
 - [SpriteCook for AI agents](https://spritecook.ai/agents)
 - [Codex plugin](https://github.com/spritecook/codex-plugin)
-- [Claude Code plugin](https://github.com/SpriteCook/spritecook-claude-plugin)
-- [Cursor plugin](https://github.com/SpriteCook/plugin)
+- [Claude Code plugin](https://github.com/SpriteCook/claude-plugin)
+- [Cursor plugin](https://github.com/SpriteCook/cursor-plugin)
 - [`spritecook-mcp` on npm](https://www.npmjs.com/package/spritecook-mcp) for any other MCP editor
