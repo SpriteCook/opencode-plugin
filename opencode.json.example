@@ -3,7 +3,7 @@
   "mcp": {
     "spritecook": {
       "type": "remote",
-      "url": "https://api.spritecook.ai/mcp/openai",
+      "url": "https://mcp.spritecook.ai/mcp/openai",
       "enabled": true
     }
   }

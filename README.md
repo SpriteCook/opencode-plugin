@@ -36,7 +36,7 @@ Add the SpriteCook MCP server to your `opencode.json` (project-local, or global 
   "mcp": {
     "spritecook": {
       "type": "remote",
-      "url": "https://api.spritecook.ai/mcp/openai",
+      "url": "https://mcp.spritecook.ai/mcp/openai",
       "enabled": true
     }
   }
@@ -54,7 +54,7 @@ Optionally copy the folders from [`skills/`](skills/) into `~/.config/opencode/s
 
 OpenCode connects to the hosted SpriteCook MCP endpoint:
 
-- `https://api.spritecook.ai/mcp/openai`
+- `https://mcp.spritecook.ai/mcp/openai`
 
 OpenCode handles authentication through SpriteCook's OAuth flow on first protected use. No API keys in config files.
 
