@@ -1,11 +1,11 @@
 # SpriteCook OpenCode Plugin
 
-Generate game sprites, animations, tilesets, and textures inside [OpenCode](https://opencode.ai) with [SpriteCook](https://spritecook.ai).
+Generate game sprites, cohesive UI kits, animations, tilesets, and textures inside [OpenCode](https://opencode.ai) with [SpriteCook](https://spritecook.ai).
 
 This repository is the source of truth for the SpriteCook OpenCode integration. It packages:
 
 - the hosted SpriteCook MCP connection for OpenCode
-- bundled SpriteCook skills (generation, animation, uploads, presets, tilesets, Godot export)
+- bundled SpriteCook skills (concept-first UI kits, generation, animation, uploads, presets, tilesets, Godot export)
 - an example `opencode.json` config
 
 ## Install
@@ -43,7 +43,7 @@ Add the SpriteCook MCP server to your `opencode.json` (project-local, or global 
 }
 ```
 
-Optionally copy the folders from [`skills/`](skills/) into `~/.config/opencode/skills/` (global) or `.opencode/skills/` (per project). The skills teach the agent SpriteCook's recommended workflows: local-file uploads, style consistency with `reference_asset_id`, asset manifests, credit checks, presets, and animation pipelines.
+Optionally copy the folders from [`skills/`](skills/) into `~/.config/opencode/skills/` (global) or `.opencode/skills/` (per project). The skills teach the agent SpriteCook's recommended workflows: concept-first UI kits, local-file uploads, style consistency with `reference_asset_id`, asset manifests, credit checks, presets, and animation pipelines.
 
 ## Repository layout
 
@@ -61,6 +61,7 @@ OpenCode handles authentication through SpriteCook's OAuth flow on first protect
 ## What you can do once connected
 
 - Generate pixel art and detailed/HD game assets from a prompt
+- Build complete menus, HUDs, inventories, dialogs, and other cohesive UI systems from one shared concept
 - Upload local image files into SpriteCook assets without API keys
 - Keep every asset on-style by passing `reference_asset_id`
 - Edit existing assets with `edit_asset_id`
