@@ -68,10 +68,6 @@ OpenCode handles authentication through SpriteCook's OAuth flow on first protect
 - Generate autotile tilesets and use them with a dual-grid renderer
 - Animate assets and export Godot-ready character packages
 
-## Skill source of truth
-
-The bundled skills are maintained in [SpriteCook/skills](https://github.com/SpriteCook/skills). When those change, sync the updated `SKILL.md` files into [`skills/`](skills/).
-
 ## Related
 
 - [SpriteCook for AI agents](https://spritecook.ai/agents)
@@ -79,3 +75,9 @@ The bundled skills are maintained in [SpriteCook/skills](https://github.com/Spri
 - [Claude Code plugin](https://github.com/SpriteCook/claude-plugin)
 - [Cursor plugin](https://github.com/SpriteCook/cursor-plugin)
 - [`spritecook-mcp` on npm](https://www.npmjs.com/package/spritecook-mcp) for any other MCP editor
+
+## Skill source of truth
+
+Bundled workflow skills come from [SpriteCook/skills](https://github.com/SpriteCook/skills). Update that repository first, then sync its committed skills into `skills/`. [skills-source.json](skills-source.json) records the exact bundled source revision.
+
+This version recommends Nano Banana 2.1 (`gemini-nano-banana-2.1`) for new pixel-art sprites and characters. Explicit model choices, presets, inherited edit models, and dedicated UI-kit defaults are preserved. No new environment variables or database migrations are required.
